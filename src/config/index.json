@@ -1,153 +1,112 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "Экскурсия СПБ",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
     {
-      "name": "Product",
+      "name": "Экскурсия",
       "href": "product"
     },
     {
-      "name": "Features",
+      "name": "Информация",
       "href": "features"
     },
 
     {
-      "name": "Pricing",
+      "name": "Цена",
       "href": "pricing"
     },
     {
-      "name": "About",
+      "name": "Контакты",
       "href": "about"
     }
   ],
   "callToAction": {
-    "text": "Get started",
+    "text": "Узнать больше",
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "Экскурсия по ",
+    "subtitle": "местам сьемки фильмов.",
+    "description": "Приглашаем вас пройти по местам съемок культового кино,а так же попробовать себя в образе легендарных актеров.\n\nЗа несколько часов экскурсии Вы приобретете коллекцию петербургских кино-локаций на каждой из которых гид-фотограф запечатлит желающих участников на память.",
+    "img": "/assets/images/brotherPhoto.png",
     "primaryAction": {
-      "text": "Get started",
+      "text": "Узнать больше",
       "href": "#"
     },
     "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "text": "Свяжитесь с нами",
+      "href": "https://t.me/photo_promenad"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Об экскрусии",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Что вас ждет?",
+        "description": "Наши фотографы-опытные специалисты,они помогут подобрать нужный ракурс и приодолеть стеснение перед камерой.\n\nБазовый набор локаций включает в себя места съемок таких фильмов как «Брат», «Невероятные приключения итальянцев в России», «Питер FM», «Шерлок Холмс и Доктор Ватсон», «Серебрянные коньки» и другие.",
+        "img": "/assets/images/product1.png"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Почему набор «базовый»?",
+        "description": "Список составлен из расчета максимального охвата локаций за все время проведения фото-экскурсии. \nОднако,если по каким-то причинам Вы хотите попасть на какую-то конкретную съемочную локацию,которой нет в вышеуказанном списке-не беда,Вы можете согласовать изменения маршрута и смену локации написав нам по контактам указанным в билете-стоимость экскурсии от этого не изменится!.",
+        "img": "/assets/images/product2.png"
+      },
+      {
+        "title": "Почему мы лучший выбор для вашего досуга?",
+        "description": "Мы открыты к предложениям,а наш гид-фотограф всегда готов запечатлеть любую Вашу задумку. \nОтправившись на экскурсию с нами, вы получит море эмоций и впечатления которые также будут запечатляны и останутся с вами на долго.",
+        "img": "/assets/images/product3.png"
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "subtitle": "Важная информация ",
+    "title": "Основные сведения об экскурсии.\n\n",
+    "description": "",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "name": "Сколько людей будет в экскурсионной группе?",
+        "description": "Экскурсия проводится для одного-трех человек по одному билету нашим гидом-фотографом.",
+        "icon": "/assets/images/people-icon.png"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "name": "Как я получу свои фотографии?",
+        "description": "В течение одной рабочей недели после экскурсии мы отправим Вам на почту 50+ отретушированных фотографий.",
+        "icon": "/assets/images/camera-icon.png"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
+        "name": "Что если я потеряю фотографии?",
+        "description": "Если по каким-то причинам у Вас «потеряются» фотографии,мы с радостью продублируем отправку бесплатно.",
+        "icon": "/assets/images/quiestion-icon.png"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "name": "В каком месте начнется экскурсия?",
+        "description": "Место встречи: ст. метро Гостиный двор.\n Точный адрес указан в билете.",
+        "icon": "/assets/images/geo-icon.png"
       }
     ]
   },
   "pricing": {
-    "title": "Pricing",
+    "title": "Цены",
     "items": [
       {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
+        "name": "Экскурсия по местам сьемки фильмов",
+        "price": "9500 руб.",
+        "priceDetails": " за услугу",
         "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
-      },
-      {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
-
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
+          "Невроятные эмоции за 4 часа экскурсии",
+          "Экскурсионная группа 1-3 человека",
+          "Забаота о вашем комфорте и индивидульный и подход",
+          "Более 50 фотографий с мест сьемок фильмов"
         ]
       }
     ]
   },
   "about": {
-    "sections": [
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      }
-    ],
+    "sections": [],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "telegram": "https://t.me/photo_promenad"
     }
   }
 }
